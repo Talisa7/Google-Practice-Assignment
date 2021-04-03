@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: white;
+	font-size: 14px;
+	color: gray;
+}
+
+ 
+header {
+	padding: 20px;
+	text-decoration: none;
+	
+}
+nav {
+	display: flex;
+	
+}
+.top-ul {
+	list-style-type: none;
+	display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+    margin-left: auto;
+	color: black;
+}
+.middle {
+	text-align: center;
+	width: 50%;
+	margin: 3em auto;
+	/* padding: 5.5%; */
+}
+ .image {
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 45%;
+} 
+
+input {
+	border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 0.7em;
+	border: 0.5px solid gray;
+}
+.button-container {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	margin: auto;
+
+}
+
+button {
+	padding: 0.8em;
+	/* width: 150px; */
+	/* margin-left: 50px; */
+	border: 1px transparent;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	/* display: inline-block; */
+	/* white-space: nowrap; */
+	text-align: center;
+	font-family: Arial, sans-serif;
+	
+} 
+button:hover{
+	color: black;
+	border: 1px solid transparent;
+	box-shadow: 5px darkgray;
+}
+
+a {
+	color: gray;
+}
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+footer {
+	background-color: #f2f2f2;
+
+}
+.mid-bottom {
+	margin: 3em;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	padding: 0 20px 80px 20px;
+}
+.top-div {
+	padding: 1em;
+}
+.bottom-div {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em;
+	border-top: 1px solid gray;
+	
+}
+.bottom-div ul {
+	display: flex;
+	/* justify-content: space-around; */
+	width: 30%;
+	list-style-type: none;
+}
+.footer-left {
+	justify-content: space-evenly;
+}
+.footer-right {
+	justify-content: space-evenly;
+}
